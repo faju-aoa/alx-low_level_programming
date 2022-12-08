@@ -7,10 +7,7 @@
  */
 int main(void)
 {
-
-char string1[]="with proper grammer, but the outcome is a piece of act,";
-
-printf(string1)
+printf("with proper grammer, but the outcome is a piece of act,");
 
 return (0);
 

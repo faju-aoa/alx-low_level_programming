@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc  alx-c.c -o alx-c
+gcc alx_c.c -o alx_c

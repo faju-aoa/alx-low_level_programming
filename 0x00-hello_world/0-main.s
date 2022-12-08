@@ -2,7 +2,7 @@
 	.text
 	.section	.rodata
 .LC0:
-	.string	"I will work in Nasa"
+	.string	"Faju-aoa School"
 	.text
 	.globl	main
 	.type	main, @function

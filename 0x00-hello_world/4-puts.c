@@ -1,2 +1,1 @@
-#!/bin/bash
-gcc $CFILE -o alx_c
+gcc alx_c.c -o alx_c

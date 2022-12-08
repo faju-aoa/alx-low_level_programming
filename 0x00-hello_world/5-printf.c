@@ -8,7 +8,9 @@
 int main(void)
 {
 
-printf("with proper grammer, but the outcome is a piece of act,");
+char string1[]="with proper grammer, but the outcome is a piece of act,"
+
+printf(string1)
 
 return (0);
 

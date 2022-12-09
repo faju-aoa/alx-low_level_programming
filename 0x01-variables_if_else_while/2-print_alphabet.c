@@ -12,7 +12,7 @@ char str[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ\n";
 char string;
 while (str[i])
 {
-string =str[i];
+string = str[i];
 putchar(tolower(string));
 i++;
 }

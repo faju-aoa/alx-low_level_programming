@@ -10,7 +10,7 @@ int main(void)
 int i = 0;
 int j = 0;
 char string[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ\n";
-char string1[] = "abcdefghijkmnopqrstuvwxyz";
+char string1[] = "abcdefghijkmnopqrstuvwxyz\n";
 char letters1;
 char letters2;
 int lower;

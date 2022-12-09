@@ -7,6 +7,9 @@
  */
 int main(void)
 {
+/**
+ *program that convert uppercase and lowercase
+ */
 int i = 0;
 int j = 0;
 char string[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ\n";

@@ -23,7 +23,7 @@ printf("Last digit of %u is %u and is 0\n", n, l);
 }
 else if ((l < 6) & (l != 0))
 {
-printf("Last digit of %u is %ld and is less than 6 and not 0\n", n, l);
+printf("Last digit of %u is %lx and is less than 6 and not 0\n", n, l);
 }
 return (0);
 

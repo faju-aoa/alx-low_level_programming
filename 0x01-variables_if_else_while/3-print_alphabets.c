@@ -9,8 +9,8 @@ int main(void)
 {
 int i = 0;
 int j = 0;
-char string[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-char string1[] = "abcdefghijkmnopqrstuvwxyz\n";
+char string[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ\n";
+char string1[] = "abcdefghijkmnopqrstuvwxyz";
 char letters1;
 char letters2;
 int lower;
@@ -21,7 +21,7 @@ while (string1[j])
 {
 letters1 = string[j];
 lower = tolower(letters1);
-putchar(lower);  
+putchar(lower);
 j++;
 }
 letters2 = string[i];

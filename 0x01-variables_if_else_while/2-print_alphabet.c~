@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include
+/**
+ *main-Entry point
+ *
+ *Return: Always 0 (success)
+ */
+int main(void)
+{
+char str[] = "abcdefghijklmnopqrstuvwxyz"
+putchar(str.lower)
+
+
+
+
+}

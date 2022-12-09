@@ -1,15 +1,12 @@
 #include <stdio.h>
 #include <ctype.h>
 /**
- *main Entry point
+ * main Entry point
  *
- *Return: Always 0 (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
-/**
- *program that convert uppercase and lowercase
- */
 int i = 0;
 int j = 0;
 char string[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ\n";

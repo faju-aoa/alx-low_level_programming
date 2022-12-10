@@ -2,9 +2,10 @@
 #include <ctype.h>
 /**
  * main - Entry point
- * 
+ *
  *Return: Always 0 (success)
  */
+
 
 int main(void)
 {
@@ -13,7 +14,7 @@ char letter[] = "ABCDFGHIJKLMNOPRSTUVWXYZ\n";
 char string;
 int lower;
 while (letter[i])
-{       
+{
 string = letter[i];
 lower = tolower(string);
 putchar(lower);

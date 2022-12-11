@@ -8,14 +8,10 @@
  */
 int main(void)
 {
-/*int array_alph[];
-int i = 0;*/
-/*int rev = i - 1;*/
 char alph = 'Z';
 while (alph >= 'A') 
 {
 char letter = alph;
-/*array_alpha[i++] = letter;*/
 putchar(tolower(letter));
 alph--;
 }

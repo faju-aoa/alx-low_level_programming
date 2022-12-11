@@ -7,26 +7,29 @@
  
 int main(void)
 {
-int rows = 48;
-int cols= 49;
+int i;
+int j;
 
-while (rows <=56)
+for(i = 0; i <= 8; i++)
 {
-while (cols <=57)
+for(j = 1; j <= 9;j++)
 {
-if (rows < cols)
+if (i != j)
 {
-putchar(rows);
-putchar(cols);
-if (rows != 56 || cols !=57)
+putchar(i + '0');
+putchar(j + '0');
+
+if (i <=8 )
 {
-putchar(',');
+
 putchar(' ');
 }
+if(j <=8)
+{
+putchar(',');    
 }
-cols++;
-} 
-rows++;
+}
+}
 }
 putchar('\n');
 return (0);

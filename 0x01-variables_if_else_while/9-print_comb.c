@@ -13,6 +13,7 @@ while (num <= 9)
 int digit = num;
 putchar(digit + '0');
 putchar(',');
+putchar(' ');
 num++;
 }
 putchar('\n');

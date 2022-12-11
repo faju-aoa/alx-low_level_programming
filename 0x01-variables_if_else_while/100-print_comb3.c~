@@ -1,0 +1,33 @@
+#include <stdio.h>
+/**
+ *main - Entry point
+ *
+ *Return: Always 0 (success)
+ */
+ 
+int main(void)
+{
+int rows = 49;
+int cols= 58;
+
+while (rows <=57)
+{
+while (cols <=56)
+{
+if (rows < cols)
+{
+putchar(rows);
+putchar(cols);
+if (rows != 56 || cols !=57)
+{
+putchar(',');
+putchar(' ');
+}
+}
+cols++;
+} 
+rows++;
+}
+putchar('\n');
+return (0);
+}

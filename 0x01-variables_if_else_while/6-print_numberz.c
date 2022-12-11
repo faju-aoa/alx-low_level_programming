@@ -20,7 +20,7 @@ array_digit[i] = digit;
 i++;
 num--;
 }
-for (rev = i-1; rev > -1; rev--)
+for (rev = i - 1; rev > -1; rev--)
 {
 putchar(array_digit[rev] + '0');
 }

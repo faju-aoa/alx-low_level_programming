@@ -14,7 +14,7 @@ int digit;
 char letter;
 while (alph <= 'F')
 {
-while (num <=9)
+while (num <= 9)
 {
 digit = num;
 putchar(tolower(digit) + '0');

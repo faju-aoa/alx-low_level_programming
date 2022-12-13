@@ -4,7 +4,7 @@
  * main - check the code.
  *
  * Return: Always 0.
- */
+i */
 int main(void)
 {
 int r;

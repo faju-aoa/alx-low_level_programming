@@ -11,7 +11,7 @@ show();
 return (0);
 }
 /**
- * show function for printing - This is a description
+ * show - printing _putchar 
  */
 void show(void)
 {

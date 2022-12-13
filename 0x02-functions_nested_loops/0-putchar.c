@@ -7,7 +7,7 @@
  */
 int main()
 {
-work();
+show();
 return (0);
 }
 

@@ -11,7 +11,7 @@ show();
 return (0);
 }
 /**
- * show - printing _putchar 
+ * show - printing _putchar
  */
 void show(void)
 {

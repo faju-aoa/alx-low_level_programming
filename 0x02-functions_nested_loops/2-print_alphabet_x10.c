@@ -3,7 +3,7 @@
 /**
  * print_alphabet_x1o - Prints "letter"
  */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 int alph;
 int i;

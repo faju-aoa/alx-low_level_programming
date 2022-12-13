@@ -10,9 +10,10 @@ int main(void)
 show();
 return (0);
 }
-void show()
+/*show function for printing*/
+void show(void)
 {
-int i =0;
+int i = 0;
 char letter[] = "_putchar\n";
 while (letter[i])
 {
@@ -20,4 +21,4 @@ char word = letter[i];
 putchar(word);
 i++;
 }
-}  
+}

@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include <ctype.h>
 #include <unistd.h>
-
-void print_alphabet()
+/**
+ * print_alphabet - printing lowercase letter 
+ */
+void print_alphabet(void)
 {
 char letter;
 char alph;

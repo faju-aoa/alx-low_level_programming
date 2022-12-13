@@ -9,7 +9,7 @@ int main(void)
 {
 show();
 return (0);
-}X
+}
 void show(void)
 /*show function for printing*/
 {

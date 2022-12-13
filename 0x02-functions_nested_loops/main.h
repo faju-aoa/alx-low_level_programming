@@ -1,1 +1,1 @@
-void work();
+void main();

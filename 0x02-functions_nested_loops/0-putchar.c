@@ -9,9 +9,9 @@ int main(void)
 {
 show();
 return (0);
-}
-/*show function for printing*/
+}X
 void show(void)
+/*show function for printing*/
 {
 int i = 0;
 char letter[] = "_putchar\n";

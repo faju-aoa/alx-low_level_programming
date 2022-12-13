@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <ctype.h>
 /**
- * print_alphabet_x1o - Prints "letter"
+ * print_alphabet_x10 - Prints "letter"
  */
 void print_alphabet_x10(void)
 {
@@ -16,5 +16,5 @@ letter = alph;
 putchar(tolower(letter));
 }
 putchar('\n');
-} 
+}
 }

@@ -4,8 +4,8 @@
  *
  *Retun: Always 0 (success)
  */
-void show();
-int main()
+void show(void);
+int main(void)
 {
 show();
 return (0);

@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "work.h"
+#include "main.h"
 /**
  * main - Entry point
  *

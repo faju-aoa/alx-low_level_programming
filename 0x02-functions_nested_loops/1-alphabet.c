@@ -2,7 +2,7 @@
 #include <ctype.h>
 #include <unistd.h>
 /**
- * print_alphabet - printing lowercase letter 
+ * print_alphabet - printing lowercase letter
  */
 void print_alphabet(void)
 {

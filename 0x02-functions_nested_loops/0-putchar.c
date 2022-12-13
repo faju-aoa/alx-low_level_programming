@@ -1,10 +1,10 @@
 #include <stdio.h>
-#include "main.h"
 /**
  * main - Entry point
  *
  *Retun: Always 0 (success)
  */
+void show();
 int main()
 {
 show();

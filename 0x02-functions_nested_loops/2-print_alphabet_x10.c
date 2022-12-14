@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <ctype.h>
+#include "main.h"
 /**
  * print_alphabet_x10 - Prints "letter"
  */
@@ -10,11 +10,11 @@ int i;
 int letter;
 for (i = 0; i <= 9; i++)
 {
-for (alph = 'A'; alph <= 'Z'; alph++)
+for (alph = 'a'; alph <= 'z'; alph++)
 {
 letter = alph;
-putchar(tolower(letter));
+_putchar(letter);
 }
-putchar('\n');
+_putchar('\n');
 }
 }

@@ -4,7 +4,7 @@
  *print_sign - check for sign of number
  *@n:parameter for the function
  *Return: Return 1 and 0 if n is +, 0 or -
- */ 
+ */
 int print_sign(int n)
 {
 if (n > 0)

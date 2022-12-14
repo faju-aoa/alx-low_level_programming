@@ -1,26 +1,17 @@
-#include <stdio.h>
-/**
- * main - Entry point
- *
- *Retun: Always 0 (success)
- */
-void show(void);
+#include "main.h"
+
 int main(void)
 {
-show();
+_putchar("_");
+_putchar("p");
+_putchar("u");
+_putchar("t");
+_putchar("c");
+_putchar("h");
+_putchar("a");
+_putchar("r");
+_putchar("\n");
+
 return (0);
-}
-/**
- * show - printing _putchar
- */
-void show(void)
-{
-int i = 0;
-char letter[] = "_putchar\n";
-while (letter[i])
-{
-char word = letter[i];
-putchar(word);
-i++;
-}
+ 
 }

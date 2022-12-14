@@ -6,15 +6,15 @@
  *@c:parameter for the function
  *Return: Return 1 and 0 if c is letter, lowercase or uppercase
  */ 
-int _is alpha(int c)
+int _isalpha(int c)
 {
-if (isalpha(c) || islower(c) || isupper(c)
+if ((isalpha(c)) || (islower(c)) || (isupper(c)))
 {
-1
+return (1);
 }
 else
 {
-0
+return (0);
 }
-_putchar('\n')
+_putchar('\n');
 }

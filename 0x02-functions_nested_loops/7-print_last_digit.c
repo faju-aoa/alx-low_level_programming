@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include "main.h"
-#include <stdlib.h>
 /**
  *print_last_digit - check for sign of number
  *@num:parameter for the function
@@ -15,5 +14,5 @@ if (l < 0)
 l *= -1;
 }
 _putchar(l + '0');
-return (0);
+return (l);
 }

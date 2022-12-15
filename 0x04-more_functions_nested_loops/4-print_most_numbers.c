@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include "main.h"
+/**
+ *print_most_numbers - print numbers from 1-9 without 2 & 4
+ *
+ *Return: return 1 and 0
+ */
+void print_most_numbers(void)
+{
+int num = 9;
+int digit;
+int i;
+for (i = 0; i <= num; i++)
+{
+digit = i;
+if ((digit != 2) && (digit != 4))
+{
+_putchar(digit + '0');
+}
+}
+_putchar('\n');
+}

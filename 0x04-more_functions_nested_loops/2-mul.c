@@ -1,0 +1,14 @@
+
+#include <stdio.h>
+#include "main.h"
+/**
+ *mul - check for uppercase letter
+ *@a:parameter for value a
+ *@b:parameter for value b
+ *Return: return m
+ */
+int mul(int a, int b)
+{
+int m = a * b;
+return (m);
+}

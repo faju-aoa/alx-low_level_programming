@@ -18,20 +18,25 @@ if (b > c)
 {
 largest = a;
 }
+else if (a > c)
+{
+largest = a;
+}
 else
 {
 largest = c;
 }
 }
-else if (b > c)
+else
+{
+if (b < c)
+{
+largest = c;
+}
+else
 {
 largest = b;
 }
-else
-{
-largest = c;
 }
-
 return (largest);
- 
 }

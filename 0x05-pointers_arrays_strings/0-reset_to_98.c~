@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include "main.h"
+/**
+ *add  Adds two values
+ *@*n:pointer parameter;
+ *Return: return void 
+ */
+void reset_to_98(int *n)
+{
+*n = 98;
+}

@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include "main.h"
+/**
+ *_strcpy - copy the string to a buffer
+ *@dest:parameter for the function
+ *@src:string to copy
+ *Return: Return 1 and 0 if n is +, 0 or -
+ */
+char *_strcpy(char *dest, char *src)
+{
+int l, i;
+l = 0;
+while (src[l] != '\0')
+{
+l++;
+}
+for (i = 0; i < l; i++)
+{
+dest[i] = src[i];
+}
+dest[i] = '\0';
+return (dest);
+}

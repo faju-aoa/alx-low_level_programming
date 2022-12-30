@@ -11,7 +11,7 @@ int sum = 0;
 
 while (n < 4000000)
 {
-next = a + b;
+n = a + b;
 a = b;
 b = n;
 if (n % 2 == 0)

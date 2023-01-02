@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *_memcpy - capital each letter
+ *_strchr - capital each letter
  *@s: parameter
  *@c: parameter
  *Return: return string

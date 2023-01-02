@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 /**
  *_strspn - capital each letter
  *@s: parameter

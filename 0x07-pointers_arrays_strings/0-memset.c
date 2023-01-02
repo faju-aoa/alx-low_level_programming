@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 /**
  *_memset - capital each letter
  *@s: parameter

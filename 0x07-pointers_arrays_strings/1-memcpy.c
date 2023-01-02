@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 /**
  *_memcpy - capital each letter
  *@dest: parameter

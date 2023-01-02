@@ -1,4 +1,4 @@
-#include <stdio.h
+#include <stdio.h>
 #include <string.h>
 /**
  *_strchr - capital each letter

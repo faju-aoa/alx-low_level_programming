@@ -3,6 +3,7 @@
 /**
  *_sqrt_recursion - find the square recursion
  *@n: parameter
+ *@i: parameter
  *Return: return square number
  */
 int sqrt_num(int n, int i);

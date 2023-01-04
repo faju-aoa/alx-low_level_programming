@@ -5,6 +5,7 @@
  *@n: parameter
  *Return: return square number
  */
+int sqrt_num(int n, int i);
 int _sqrt_recursion(int n)
 {
 int p;

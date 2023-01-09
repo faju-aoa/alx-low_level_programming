@@ -7,6 +7,6 @@
  */
 int _isupper(int c)
 {
-int p = isupper(c);
-return (p);
+isupper(c);
+return (c);
 }

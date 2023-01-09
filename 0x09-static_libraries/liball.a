@@ -1,0 +1,288 @@
+!<arch>
+0-isupper.c/    0           0     0     644     166       `
+#include <stdio.h>
+#include <ctype.h>
+/**
+ *_isupper - capital each letter
+ *@c: parameter
+ *Return: return value
+ */
+int _isupper(int c)
+{
+isupper(c);
+return (c);
+}
+0-memset.c/     0           0     0     644     240       `
+#include <stdio.h>
+#include <string.h>
+/**
+ *_memset - capital each letter
+ *@s: parameter
+ *@b: parameter
+ *@n: parameter
+ *Return: return value
+ */
+char *_memset(char *s, char b, unsigned int n)
+{
+char *p = memset(s, b, n);
+return (p);
+}
+0-strcat.c/     0           0     0     644     209       `
+#include <stdio.h>
+#include <string.h>
+/**
+ *_strcat - join two words
+ *@dest: parameter
+ *@src: parameter
+ *Return: return value
+ */
+char *_strcat(char *dest, char *src)
+{
+strcat(dest, src);
+return (dest);
+}
+
+100-atoi.c/     0           0     0     644     167       `
+#include <stdio.h>
+#include <stdlib.h>
+/**
+ *_atoi - join two words
+ *@s: parameter
+ *Return: return value
+ */
+int _atoi(char *s)
+{
+int val = atoi(s);
+return (val);
+}
+
+1-isdigit.c/    0           0     0     644     161       `
+#include <stdio.h>
+#include <ctype.h>
+/**
+ *_isdigit - join two words
+ *@c: parameter
+ *Return: return value
+ */
+int _isdigit(int c)
+{
+isdigit(c);
+return (c);
+}
+
+1-memcpy.c/     0           0     0     644     245       `
+#include <stdio.h>
+#include <string.h>
+/**
+ *_memcpy - join two words
+ *@dest: parameter
+ *@src: parameter
+ *@n: parameter 
+ *Return: return value
+ */
+char *_memcpy(char *dest, char *src, unsigned int n)
+{
+memcpy(dest, src, n);
+return (dest);
+}
+
+1-strncat.c/    0           0     0     644     233       `
+#include <stdio.h>
+#include <string.h>
+/**
+ *_strncat - join two words
+ *@s: parameter
+ *@b: parameter
+ *@n: parameter
+ *Return: return value
+ */
+char *_strncat(char *dest, char *src, int n)
+{
+strncat(dest, src, n);
+return (dest);
+}
+
+2-strchr.c/     0           0     0     644     184       `
+#include <stdio.h>
+#include <string.h>
+/**
+ *_strchr - join two words
+ *@s: parameter
+ *Return: return value
+ */
+char *_strchr(char *s, char c)
+{
+char *p = strchr(s, c);
+return (p);
+}
+2-strlen.c/     0           0     0     644     184       `
+#include <stdio.h>
+#include <string.h>
+/**
+ *_strlen - find the length of the string
+ *@s: parameter
+ *Return: return value
+ */
+int _strlen(char *s)
+{
+int p = strlen(s);
+return (p);
+}
+2-strncpy.c/    0           0     0     644     234       `
+#include <stdio.h>
+#include <string.h>
+/**
+ *_strncpy - copy string
+ *@dest:parameter
+ *@src: parameter
+ *@n: parameter
+ *Return: return value
+ */
+char *_strncpy(char *dest, char *src, int n)
+{
+strncpy(dest, src, n);
+return (dest);
+}
+3-islower.c/    0           0     0     644     147       `
+#include <ctype.h>
+/**
+ *_islower - capital each letter
+ *@c: parameter
+ *Return: return value
+ */
+int _islower(int c)
+{
+islower(c);
+return (c);
+}
+
+3-puts.c/       0           0     0     644     154       `
+#include <stdio.h>
+#include <string.h>
+/**
+ *_puts - absolute value
+ *@s: parameter
+ *Return: return value
+ */
+void _puts(char *s)
+{
+printf("%s\n", s);
+}
+3-strcmp.c/     0           0     0     644     181       `
+#include <stdio.h>
+#include <string.h>
+/**
+ *strcmp - copy string
+ *@s: parameter
+ *Return: return value
+ */
+int _strcmp(char *s1, char *s2)
+{
+int p = strcmp(s1, s2);
+return (p);
+}
+
+3-strspn.c/     0           0     0     644     196       `
+#include <stdio.h>
+#include <string.h>
+/**
+ *strspn - copy string
+ *@s: parameter
+ *Return: return value
+ */
+unsigned int _strspn(char *s, char *accept)
+{
+int p = strspn(s, accept);
+return (p);
+}
+4-isalpha.c/    0           0     0     644     167       `
+
+#include <stdio.h>
+#include <ctype.h>
+/**
+ *_isalpha - check for alphabete
+ *@c: parameter
+ *Return: return value
+ */
+int _isalpha(int c)
+{
+isalpha(c);
+return (c);
+}
+
+4-strpbrk.c/    0           0     0     644     227       `
+#include <stdio.h>
+#include <string.h>
+/**
+ *strstr - seaqrch substring
+ *@strpbrk: parameter
+ *@accept : parameter
+ *Return: return value
+ */
+char *_strpbrk(char *s, char *accept)
+{
+char *p = strpbrk(s, accept);
+return (p);
+}
+
+5-strstr.c/     0           0     0     644     240       `
+#include <stdio.h>
+#include <string.h>
+/**
+ *strstr - seaqrch substring
+ *@haystack: parameter
+ *@needle : parameter
+ *Return: return value
+ */
+char *_strstr(char *haystack, char *needle)
+{
+char *p = strstr(haystack, needle);
+return (p);
+}
+6-abs.c/        0           0     0     644     158       `
+#include <stdio.h>
+#include <stdlib.h>
+/**
+ *_abs - absolute value
+ *@n: parameter
+ *Return: return value
+ */
+int _abs(int n)
+{
+int p = abs(n);
+return (p);
+}
+9-strcpy.c/     0           0     0     644     211       `
+#include <stdio.h>
+#include <string.h>
+/**
+ *_strcpy - string copy
+ *@dest: parameter
+ *@n: parameter
+ *Return: return value
+ */
+char *_strcpy(char *dest, char *src)
+{
+char *p = strcpy(dest, src);
+return (p);
+}
+
+main.c/         0           0     0     644     140       `
+#include "main.h"
+
+int main(void)
+{
+_puts("\"At the end of the day, my goal was to be the best hacker\"\n\t- Kevin Mitnick");
+return (0);
+}
+_putchar.c/     0           0     0     644     156       `
+#include <unistd.h>
+/**
+ * _putchar - writes the character c to stdout
+ * 
+ * Return: On success 1
+ */
+int _putchar(char c)
+{
+  return (write(1, &c, 1));
+}

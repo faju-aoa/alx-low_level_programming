@@ -8,6 +8,6 @@
  */
 char *_strstr(char *haystack, char *needle)
 {
-strstr(haystack, needle);
-return (haystack);
+char *p = strstr(haystack, needle);
+return (p);
 }

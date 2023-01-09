@@ -6,6 +6,6 @@
  */
 int _islower(int c)
 {
-int p = islower(c);
-return (0);
+islower(c);
+return (c);
 }

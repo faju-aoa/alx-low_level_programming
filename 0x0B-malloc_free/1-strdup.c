@@ -9,14 +9,12 @@
 char *_strdup(char *str)
 {
 char *ptr;
-char *c;
 unsigned int i, j;
 if (str == NULL)
 {
 return (NULL);
 }
-c = strdup(str);
-for (i = 0; c[i] != '\0'; i++)
+for (i = 0; str[i] != '\0'; i++)
 {
 }
 ptr = (char *)malloc(sizeof(char) * (i + 1));
@@ -26,7 +24,7 @@ return (NULL);
 }
 for (j = 0; j <= i; j++)
 {
-ptr[j] = c[j];
+ptr[j] = str[j];
 }
 return (ptr);
 }

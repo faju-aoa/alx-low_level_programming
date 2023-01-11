@@ -11,11 +11,6 @@ char *_strdup(char *str)
 char *ptr;
 char *c;
 unsigned int i, j;
-char *_strdup(char *str)
-{
-char *ptr;
-char *c;
-unsigned int i, j;
 if (str == NULL)
 {
 return (NULL);

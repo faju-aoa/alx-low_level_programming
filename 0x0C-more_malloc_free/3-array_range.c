@@ -10,14 +10,14 @@ int *array_range(int min, int max)
 {
 int r, i;
 int *ptr;
-char *f;
+int *f;
 r = 0;
 if (min > max)
 {
 return (NULL);
 }
 r = ((max + 1) - min);
-ptr = (char *))calloc(r, sizeof(int));
+ptr = (int *)calloc(r, sizeof(int));
 if (ptr == NULL)
 {
 return (NULL);

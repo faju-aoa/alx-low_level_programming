@@ -15,8 +15,9 @@ if (nmemb == 0 || size == 0)
 {
 return (NULL);
 }
-if (ptr == NULL)
+if (ptr == 0)
 {
+free(ptr);
 return (NULL);
 }
 for (i = 0; i < (nmemb * size); i++)

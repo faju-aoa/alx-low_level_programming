@@ -16,9 +16,8 @@ if (nmemb == 0 || size == 0)
 {
 return (NULL);
 }
-if (ptr == 0)
+if (ptr == NULL)
 {
-free(ptr);
 return (NULL);
 }
 f = ptr;

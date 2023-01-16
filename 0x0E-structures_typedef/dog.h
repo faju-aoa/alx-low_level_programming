@@ -8,11 +8,14 @@
  *
  *Description: attribute of the dog
  */
-typedef struct dog
+struct dog
 {
 char *name;
 float age;
 char *owner;
 };
+/**
+ * dog_t - Typedef for dog structure
+ */
 typedef struct dog dog;
 #endif

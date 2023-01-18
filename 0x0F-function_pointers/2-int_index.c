@@ -21,5 +21,7 @@ if (cmp(array[i]) != 0)
 return (i);
 }
 }
+}
 return (-1);
 }
+

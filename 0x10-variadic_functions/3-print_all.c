@@ -27,9 +27,9 @@ case 'f':
 printf("%s%f", sep, va_arg(ptr, double));
 break;
 case 's':
-str = va_arg(ptr, char *);
+s = va_arg(ptr, char *);
 if (!s)
-str = "(nil)";
+s = "(nil)";
 printf("%s%s", sep, s);
 break;
 default:

@@ -3,7 +3,7 @@
 /**
  * sum_them_all - searches for an integer
  * @n: array to search
- * @separator: string to be printed between numbers
+ * Return: return sum
  */
 int sum_them_all(const unsigned int n, ...)
 {

@@ -22,9 +22,9 @@ printf("%d", va_arg(ptr, int));
 }
 else
 {
-printf("%s%d", separator, va_arg(list, int));
+printf("%s%d", separator, va_arg(ptr, int));
 }
 }
-va_end(list);
+va_end(ptr);
 printf("\n");
 }

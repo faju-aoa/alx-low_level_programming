@@ -7,7 +7,7 @@
 void free_listint(listint_t *head)
 {
 listint_t *first, *second;
-tp = head;
+first = head;
 while (first != NULL)
 {
 second = first->next;

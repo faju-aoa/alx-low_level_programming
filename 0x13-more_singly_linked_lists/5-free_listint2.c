@@ -11,7 +11,7 @@ if (head == NULL)
 {
 return;
 }
-while (head != NULL)
+while (*head != NULL)
 {
 first = (*head)->next;
 free(*head);

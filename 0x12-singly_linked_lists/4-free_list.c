@@ -1,4 +1,4 @@
-#include "list.h";
+#include "lists.h";
 /**
  * free_list - delete singly linked list node
  * @head: head - head of the node

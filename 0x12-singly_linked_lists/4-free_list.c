@@ -4,14 +4,14 @@
  * @head: head - head of the node
  *
  *Return void
- */
+*/
 void free_list(list_t *head)
 {
 if (head == NULL)
 {
-  printf("link is empty");
+printf("link is empty");
 }
-while(head != NULL)
+while (head != NULL)
 {
 list_t *temp = head;
 head = head->next;

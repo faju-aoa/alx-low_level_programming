@@ -11,8 +11,11 @@ if (head == NULL)
 {
   printf("link is empty");
 }
+while(head != NULL)
+{
 list_t *temp = head;
 head = head->next;
-free(head);
-temp = NULL;
+free(temp->str);
+free(temp);
+}
 }

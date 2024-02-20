@@ -15,5 +15,5 @@ printf("%d\n", ptr->n);
 count++;
 ptr = ptr->next;
 }
-return (ptr);
+return (count);
 }

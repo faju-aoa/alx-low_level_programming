@@ -12,10 +12,6 @@ if (h == NULL)
 {
 return (count);
 }
-while (h->prev != NULL)
-{
-h = h->prev;
-}
 while (h != NULL)
 {
 printf("%d\n", h->n);

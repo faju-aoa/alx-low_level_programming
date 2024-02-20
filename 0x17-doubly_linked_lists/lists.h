@@ -1,8 +1,8 @@
 #ifndef _LISTS_H_
 #define _LIST_H_
 
+#include <stddef.h>
 #include <stdlib.h>
-#include <string.h>
 #include <stdio.h>
 
 /**

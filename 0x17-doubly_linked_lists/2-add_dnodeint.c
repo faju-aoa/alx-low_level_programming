@@ -1,8 +1,9 @@
 #uinclude "lists.h"
 
 /**
- * add_dnodein - create an empty node
- * @h: head of the node
+ * add_dnodeint - create an empty node
+ * @head:head of the nodes
+ * @n:data of the node
  * Return: head of the node
  */
 dlistint_t *add_dnodeint(dlistint_t **head, const int n)

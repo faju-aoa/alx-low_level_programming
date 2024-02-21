@@ -20,7 +20,7 @@ return (NULL);
 }
 new_node->n = n;
 new_node->next = NULL;
-while (*head == NULL)
+if (*head == NULL)
 {
 new_node->prev = NULL;
 *head = new_node;

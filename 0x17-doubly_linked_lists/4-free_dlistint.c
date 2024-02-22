@@ -13,7 +13,5 @@ while (head)
 temp = head;
 head = head->next;
 free(temp);
-temp = NULL;
-head->prev = NULL;
 }
 }

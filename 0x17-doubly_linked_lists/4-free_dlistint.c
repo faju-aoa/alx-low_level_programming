@@ -16,3 +16,4 @@ free(temp);
 temp = NULL;
 head->prev = NULL;
 }
+}

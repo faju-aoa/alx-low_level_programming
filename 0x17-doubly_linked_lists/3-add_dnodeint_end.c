@@ -23,13 +23,13 @@ temp->n = n;
 temp->next = NULL;
 if (*head == NULL)
 {
-temp->prev =NULL;
+temp->prev = NULL;
 (*head) = temp;
 return (*head);
 }
 ptr = NULL;
 ptr = (*head);
-while(ptr->next != NULL)
+while (ptr->next != NULL)
 {
 ptr = ptr->next;
 }

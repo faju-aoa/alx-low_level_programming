@@ -1,11 +1,11 @@
 #include "lists.h"
 
 /**
-  * get_dnodeint_at_index - get the index of the node
-  * @head: head of the node
-  * @index: count of the node
-  * Return: return ptr
-  */
+ * get_dnodeint_at_index - get the index of the node
+ * @head: head of the node
+ * @index: count of the node
+ * Return: return ptr
+ */
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
 int count = 0;

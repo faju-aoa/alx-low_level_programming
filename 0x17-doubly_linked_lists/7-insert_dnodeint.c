@@ -23,18 +23,19 @@ return (NULL);
 }
 temp->n = n;
 temp->next = NULL;
-if (*h == NULL)
-{
 temp->prev = NULL;
-(*h) = temp;
-return (*h);
-}
 ptr = (*h);
+if (idx == 0)
+{
+temp = add_dnodeint(h, n);
+return (temp);
+}
 while (idx != 0)
 {
-if (idx < 0)
+if (ptr->next == NULL)
 {
-return (NULL);
+temp = add_dnodeint_end(h, n);
+return (temp);
 }
 ptr = ptr->next;
 idx--;

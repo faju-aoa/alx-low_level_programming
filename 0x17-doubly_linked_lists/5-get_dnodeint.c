@@ -17,7 +17,7 @@ return (NULL);
 ptr = head;
 while (count < index)
 {
-if (ptr != NULL)
+if (ptr->next == NULL)
 {
 return (ptr);
 }

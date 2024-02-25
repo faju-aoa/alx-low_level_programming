@@ -22,7 +22,7 @@ while (count < index)
 {
 if (ptr->next == NULL)
 {
-return (count);
+return (ptr);
 }
 count++;
 ptr = ptr->next;

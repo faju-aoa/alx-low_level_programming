@@ -46,7 +46,7 @@ temp->prev = ptr;
 temp->next = temp2;
 return (ptr);
 }
-ptr = ptr->next;
 idx--;
+ptr = ptr->next;
 }
 }

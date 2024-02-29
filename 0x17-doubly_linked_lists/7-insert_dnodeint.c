@@ -1,5 +1,4 @@
 #include "lists.h"
-
 /**
  * insert_dnodeint_at_index - insert node at index
  * @h: head of the node
@@ -9,8 +8,8 @@
  */
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
-dlistint_t *ptr = NULL;
-dlistint_t *temp = NULL;
+unsigned int count = 0;
+dlistint_t *ptr, *temp = NULL;
 dlistint_t *temp2 = NULL;
 if (*h == NULL)
 {
@@ -30,14 +29,14 @@ if (idx == 0)
 temp = add_dnodeint(h, n);
 return (temp);
 }
-while (idx != 0)
+while (ptr)
 {
-if (ptr->next == NULL)
+if ((ptr->next == NULL) && count == idx - 1)
 {
 temp = add_dnodeint_end(h, n);
 return (temp);
 }
-else if ((idx == 1))
+else if ((idx - 1) == count)
 {
 temp2 = ptr->next;
 ptr->next = temp;
@@ -46,7 +45,7 @@ temp->prev = ptr;
 temp->next = temp2;
 return (ptr);
 }
-idx--;
+count++;
 ptr = ptr->next;
 }
 }

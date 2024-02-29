@@ -37,13 +37,16 @@ if (ptr->next == NULL)
 temp = add_dnodeint_end(h, n);
 return (temp);
 }
-ptr = ptr->next;
-idx--;
-}
+else if ((idx == 1))
+{
 temp2 = ptr->next;
 ptr->next = temp;
 temp2->prev = temp;
 temp->prev = ptr;
 temp->next = temp2;
 return (ptr);
+}
+ptr = ptr->next;
+idx--;
+}
 }

@@ -17,14 +17,6 @@ return (NULL);
 }
 ht->size = size;
 ht->array = malloc(sizeof(hash_node_t) * size);
-if (ht->array == NULL)
-{
-return (NULL);
-}
-while (i = 0 && i < size)
-{
-ht->array[i] = NULL;
-i++;
 }
 return (ht);
 }

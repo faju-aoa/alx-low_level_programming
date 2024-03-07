@@ -15,7 +15,6 @@ if (hashTable == NULL)
 {
 return (NULL);
 }
-hashTable->size = size;
 hashTable->array = malloc(sizeof(hash_node_t *) * size);
 if (hashTable->array == NULL)
 {
@@ -25,5 +24,6 @@ for (i = 0; i < size; i++)
 {
 hashTable->array[i] = NULL;
 }
+hashTable->size = size;
 return (hashTable);
 }

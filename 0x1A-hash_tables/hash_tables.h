@@ -1,7 +1,7 @@
-#ifndef _LISTS_H_
-#define _LISTS_H_
+#ifndef _HASH_TABLES_H_
+#define _HASH_TABLES_H_
 
-#include <stddef.h>
+#include <string.h>
 #include <stdlib.h>
 #include <stdio.h>
 

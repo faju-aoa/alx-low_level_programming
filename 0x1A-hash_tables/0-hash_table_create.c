@@ -16,14 +16,14 @@ if (hashTable == NULL)
 return (NULL);
 }
 hashTable->size = size;
-hashTable->array = malloc(sizeof(hash_node_t *) * hashTable->size);
+hashTable->array = malloc(sizeof(hash_node_t *) * size);
 if (hashTable->array == NULL)
 {
 return (NULL);
 }
-for (i = 0; i < hashTable->size; i++)
+for (i = 0; i < size; i++)
 {
-hashTable->array[i];
+hashTable->array[i] = NULL;
 }
 return (hashTable);
 }
